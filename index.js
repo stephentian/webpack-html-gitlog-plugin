@@ -4,7 +4,7 @@ const {
   getBuildMode,
   parseJsBuildInfo,
   parseHtmlBuildInfo
-} = require('./heplers')
+} = require('./helpers')
 
 class InjectGitnameWebpackPlugin {
   apply(compiler) {
